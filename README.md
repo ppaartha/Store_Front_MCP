@@ -702,15 +702,3 @@ If your MCP client requires streamable HTTP transport, this project is configure
 
 4. Streamlit shows no data
 - Check `mcp-server` logs to confirm seed/migrations completed.
-
-## Teaching Notes
-
-The code includes concise comments/docstrings that explain:
-- What each layer does
-- Why it exists in a real architecture
-- Which parts demonstrate MCP tools/resources/prompts
-- How AI agents can invoke these components through MCP
-
-## License
-
-Use this project for classroom teaching, internal demos, and MCP learning labs.
