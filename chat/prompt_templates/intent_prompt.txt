@@ -1,0 +1,16 @@
+Classify the latest user request intent for a Customer & Order assistant.
+Return STRICT JSON only with this shape:
+{
+  "intent": "Customer Lookup|Customer Creation|Customer Update|Order Lookup|Revenue Analytics|Sales Analytics|General Question|Greeting|Help",
+  "secondary_intent": "string",
+  "confidence": 0.0,
+  "requires_tool": true,
+  "tool_category": "Customer|Order|Analytics|None",
+  "selection_reason": "string"
+}
+
+Conversation summary:
+{conversation_summary}
+
+Latest user message:
+{latest_user_message}

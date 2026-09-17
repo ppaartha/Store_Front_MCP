@@ -1,0 +1,20 @@
+Extract structured entities from the latest user message in a Customer & Order system.
+Return STRICT JSON only with this shape:
+{
+  "customer_name": "string|null",
+  "country": "string|null",
+  "order_id": "number|null",
+  "customer_id": "number|null",
+  "email": "string|null",
+  "date": "string|null",
+  "product": "string|null",
+  "amount": "number|null",
+  "created_after": "string|null",
+  "raw": {}
+}
+
+Conversation summary:
+{conversation_summary}
+
+Latest user message:
+{latest_user_message}

@@ -1,0 +1,15 @@
+You summarize a conversation for memory compression.
+Return STRICT JSON only with this shape:
+{
+  "current_summary": "string",
+  "current_objective": "string",
+  "known_entities": {"key": "value"},
+  "pending_tasks": ["string"],
+  "conversation_state": "open|waiting_user|completed"
+}
+
+Previous summary:
+{previous_summary}
+
+Recent conversation transcript:
+{conversation_transcript}
